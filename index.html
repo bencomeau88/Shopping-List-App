@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>Interactive Shopping List</title>
+	<link rel="stylesheet" href="normalize.css">
+	<link rel="stylesheet" type="text/css" href="style.css">
+	<link href='https://fonts.googleapis.com/css?family=Alegreya:400,400italic,700,700italic' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Roboto+Condensed:400,400italic,700,300italic,300' rel='stylesheet' type='text/css'>
+	<link href='https://fonts.googleapis.com/css?family=Raleway:400,300' rel='stylesheet' type='text/css'>
+</head>
+<body>
+<div class="nav-bar"> </div>
+<div class="project">
+	<header>
+
+		<h1>ForgetMe.Not </h1>
+
+	</header>
+
+<div class="buttons">
+	
+	<img src="check-list.svg" alt="CHECK-LIST ICON" width="250">
+	
+	<h2>What's on Your List?</h2>	
+	
+	<form class="clear-button">
+    	<button type="submit" id="sendIt">Add To List</button>
+		<button type="button" id="clearIt" value="Clear">Clear List</button>
+    		<br>
+    	<input class="input-text" type="text" id="add" placeholder="Type What You Need, Then Press 'Enter'">
+    	
+	</form>
+
+<!-- <input type="checkbox" name="vehicle" value="Bike">I have a bike<br> -->
+	
+	<div id="content">
+    	<ul class="list">
+      		<li class="items"> </li>
+
+    	</ul>
+  	</div>
+
+</div>
+
+<div class="bottom-filler"> </div>
+
+
+</div>
+<script src="http://code.jquery.com/jquery.min.js"></script>
+<script src="app.js"></script>
+</body>

@@ -1,0 +1,56 @@
+.buttons, h1 {
+	font-family:Roboto Condensed;
+	text-align:center;
+	color:black;
+}
+
+.nav-bar {
+	background-color:#00CDFF;
+	height:5em;
+	width:9999px;
+}
+
+h1 {
+	font-size:50px;
+}
+
+button {
+	background-color:#00CDFF;
+	border-radius:60px;
+	margin-top:3px;
+	border:none;
+	font-family:Roboto Condensed;
+	color:black;
+	height:50px;
+	width:150px;
+	font-size:20px;
+	margin-bottom:23px;
+}
+
+.bottom-filler {
+	background-color:#00CDFF;
+	height:20em;
+	width:9999px;
+	margin-top:15em;
+}
+
+input.input-text {
+	font-family:Raleway;
+	font-weight:light;
+	font-size:20px;
+	width:376px;
+}
+
+ul li {
+	list-style-type:none;
+	font-family:Roboto Condensed;
+	font-size:30px;
+	margin-right:1px;
+}
+
+.strike {
+	text-decoration:line-through;
+}
+
+/*color-match for icon background: #00CDFF*/
+/*color-match for icon clipboard: #FF7703*/
